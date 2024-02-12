@@ -1,0 +1,140 @@
+<!-- IT21282836 - Mallawaarachchi T. D. R. -->
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title> Contact Us </title>
+		
+		<!-- link css file -->
+		<link rel="stylesheet" href="../css/HF.css">
+		<link rel="stylesheet" href="../css/myStyles.css">
+		
+		<!-- add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- link js file -->
+		<script src="../js/myScript.js"> </script>
+		
+		<!-- HEADER start -->
+		<div class = "header">
+		
+			<!-- logo image -->
+			<img src = "../images/logo.png" alt = "Logo image not found " class = "logo">	
+					
+			<!-- navigation bar -->		
+			<nav>
+				<ul class = "nav-link">	
+					
+					<li> <a href = "Home - afterLog.html" > Home </a> </li>
+					<li> <a href = "findJob.html" > Find Job </a> </li>
+					<li> <a href = "findTalent.html" > Find Talent </a> </li>
+					<li> <a href = "payment.html" > Payment </a> </li>
+					<li> <a href = "#" > Contact Us </a> </li>
+					<li> <a href = "aboutUs.html" > About Us </a> </li>
+					<li> <a href = "Help & Support.html" > Help & Support </a> </li>	
+				</ul>
+			</nav>
+		<!-- HEADER end -->		
+		<hr> <!--added by me-->	
+	</head>
+	
+	
+	<body id="contactus">
+		<center>
+			<h1 id="textHead"> Contact Us </h1> <br> 
+		</center>
+		
+		<div class="contactLayout">
+			<div class="contactDetails">
+			
+			    <div class="leftContent">
+				    <div class="content">
+				        <i class="fas fa-map-marker-alt"></i>
+				        <div class="conTextHead">Address</div>
+			        	<div class="conText">88, Malabe Road, Colombo, Sri Lanka</div>
+				    </div>
+					
+					<div class="content">
+				        <i class="fas fa-phone"></i>
+				        <div class="conTextHead">Phone</div>
+			        	<div class="conText">+94 337895569</div>
+						<div class="conText">+94 774699866</div>
+				    </div>
+					
+					<div class="content">
+				        <i class="material-icons">email</i>
+				        <div class="conTextHead">Email</div>
+			        	<div class="conText">recruitme@gmail.com</div>
+				    </div>			
+				</div>
+				
+				<div class="rightContent">
+					<div class="contactForm">
+					
+						<form action="../php/contactUs.php" method="POST">
+						
+							<!-- Need to change the textbox width-->
+							Full Name: <br>
+							<input type="text" name="fName" placeholder="Full Name" required>
+							<br> <br>
+							
+							Mobile Number: <br>
+							<input type="phone" name="mobNo" placeholder="0xxxxxxxxx" required>
+							<br> <br>
+							
+							Email: <br>
+							<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="abc@gmail.com" required>
+							<br> <br>
+							
+							Message: <br>
+							<textarea name="msg" rows="7" cols="37" required> </textarea>
+							<br> <br>
+							
+							<!-- Specified an enableButton() function-->
+							<input type="checkbox" id="checkBox" onclick="enableButton()">
+							Accept Privacy Policy and Terms
+							<br> <br>
+							
+							<center>
+								<input type="submit" value="Submit" id="submitBtn" disabled>
+							</center>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br><br><br> <!-- added-->
+			
+	
+		<!-- FOOTER start -->	
+		<footer class = "left">
+                <br>
+				<b>SITE LINKS</b>				                   <br><br>
+			    <a href="Home - afterLog.html"> Home </a>                            <br><br>
+				<a href="findJob.html"> Find Job </a>            <br><br>
+				<a href="findTalent.html"> Find Talent </a>      <br><br>
+				<a href="payment.html"> Payment </a>                         <br><br>
+				<a href="#"> Contact Us </a>        <br><br>
+				<a href="aboutUs.html"> About Us </a>                        <br><br>
+				<a href="Help & Support.html"> Help & Support </a>                  <br><br>
+				  
+			<div class = "Social-right">
+				<!-- Add social media icons -->
+				<a href="" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-whatsapp"></a>
+			</div>		  		
+		</footer>
+		
+		<p class = "power">Powered by <a href="#" target="_blank">Recruit Me</a> </p>
+		<!-- FOOTER end -->	
+	</body>
+</html>

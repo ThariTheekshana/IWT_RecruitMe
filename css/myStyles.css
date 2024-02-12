@@ -1,0 +1,228 @@
+/* IT21282836 - Mallawaarachchi T. D. R. */
+
+/* contactUs start*/
+body#contactus{
+	background-image: url("../images/contactBg.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+h1#textHead{
+	font-size: 40px;
+	color: white;
+	font-weight: bolder;	
+}
+
+div.contactLayout{
+	width: 70%;
+	height: 70%;
+    background: #5D6D7E;
+    border-radius: 60px;
+    padding: 30px 30px 30px 30px;
+	margin: auto;
+}
+
+.contactLayout .contactDetails{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contactLayout .contactDetails .leftContent{
+	width: 35%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	right: 10px;
+	justify-content: center;
+	margin: 10px 10px 10px 10px;
+}
+
+.contactDetails .leftContent::after{
+	content: '';
+	height: 100%;
+	width: 3px;
+	background: #afafb6;
+	position: absolute;
+	right: -50px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.leftContent .content{
+	text-align: center;
+	margin: 20px;
+}
+
+.leftContent .content i{
+	font-size: 20px;
+	color: #F7E31C;
+	margin-bottom: 10px;
+}
+
+.leftContent .content .conTextHead{
+	font-size: 25px;
+	color: black; 
+	font-weight: bolder;
+	opacity: 0.7;
+	margin-bottom: 5px;
+}
+
+.leftContent .content .conText{
+	font-size: 17px;
+	color: #D3D3D2 ;
+	font-weight: bolder;
+	margin-bottom: 12px;
+}
+
+.contactLayout .contactDetails .rightContent{
+	width: 37%;	
+	justify-content: center;
+	margin: auto;
+}
+
+form{
+	width: 300px;
+	margin: auto;
+	padding: 50px;
+	background: black;
+	font-size: 13px;
+	font-family: verdana;
+	color: white;
+	font-weight: bolder;	
+}
+/* contactUs end*/
+
+
+
+/* findJob start*/ 
+body#findjob{
+	background-image: url("../images/findjob.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+h2.jtTitle{
+	color: black;
+}
+
+.Opp{
+	display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+.Opp .jobDetails{  
+	width: 300px;
+    height: 250px;
+    color: black;  
+    margin: 25px;
+    background:#D1975D;
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 0 70px;
+}
+
+.Opp .jobDetails:hover {
+	color: white;
+    background-color: black;
+}
+
+.Opp .jobDetails .jobDscrpt{
+  	text-align: left;
+}  
+
+.Opp .jobDetails .apply{
+	font-size: 25px;
+	color: #CF1010;
+	font-weight: bold;
+	text-align: center;
+    text-decoration: none;
+}
+/* findJob end*/ 
+
+
+
+/* findTalent start*/ 
+body#findtalent{
+	background-image: url("../images/findtalent.jpeg");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.textHead2{
+	color: white;
+	opacity: 0.5;
+}
+
+.Opp .talentDetails .dImg img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+#imgE{
+     border-radius: 50%;
+}
+
+.Opp .talentDetails{  
+   width: 300px;
+   height: 300px;
+   color: black;  
+   margin: 25px;
+   background:#5CCEED;
+   padding: 20px;
+   border: 2px solid #FFF000 ;
+   border-radius: 70px 0;
+}
+
+.Opp .talentDetails:hover {
+    color: white;
+    background-color: #070672;
+}
+
+.Opp .talentDetails .talentDscrpt{
+	text-align: center;
+} 
+
+.Opp .talentDetails .apply{
+	text-align: center;
+	font-size: 25px;
+	color: #8A1BB0 ;
+    display:inline-block;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.tIssues{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tIssues .tIssuesLeft{
+	font-family: Verdana;
+	font-size: 25px;
+	font-weight: bolder;
+	color: white;
+	position: relative;
+	line-height: 40px;
+}
+
+.tIssues .tIssuesLeft::after{
+	content: '';
+	height: 400%;
+	width: 3px;
+	background: white;
+	opacity: 0.3;
+	position: absolute;
+	right: -100px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.tIssues .tIssuesRight{
+	margin: auto;
+}
+/* findTalent end*/

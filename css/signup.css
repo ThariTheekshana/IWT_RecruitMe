@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+
+body{
+	background-image: url("../images/sign.png");
+	background-position: center;
+	background-size: cover;
+	
+    
+}
+.title{
+    font-size: 20px;
+    color:black;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  
+  .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    
+  }
+  
+  .signup form{
+    padding:20px;
+    width:500px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    
+  }
+  
+  .signup form .roww{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+
+.textBox{
+    margin:5px 0;
+  }
+  
+.textBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .textBox input{
+    width: 150%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 16px;
+    text-transform: none;
+  }
+  
+  .textBox input:focus{
+    border:2px solid #000;
+  }
+  
+  .textBox{
+    margin-top: 25px;
+  }
+  
+ 
+  
+  .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #37ae27;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .signup form .submit-btn:hover{
+    background: #2e87cc;
+  }
+  

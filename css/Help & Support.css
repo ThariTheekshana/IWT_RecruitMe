@@ -1,0 +1,328 @@
+body{
+	background-image: url("../images/H.jpg");
+	
+}
+.enterQ{
+	color:white;
+	
+}
+
+
+
+.header{
+	
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    height: auto;
+    width: 100%;
+	padding: 0 8%;
+	position: relative;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	width: 100%;
+	
+}
+
+.logo{
+	width: 170px;
+	
+}
+
+.nav-link{
+	padding: 28px 0px;
+	margin-right: auto;
+}
+
+.nav-link li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.nav-link li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 0;
+	position: relative;
+	font-size: 25px;
+}
+
+.nav-link li a:hover{
+	font-size: 30px;
+	color: yellow;
+	
+}
+
+.button-in{
+	background: #1E90FF;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	cursor: pointer;	
+}
+
+.button-up{
+	background: #1E90FF;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	cursor: pointer;	
+}
+
+.button-in:hover{
+	font-size: 26px;
+}
+
+.button-up:hover{
+	font-size: 26px;
+}
+
+.bodyCont{
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	width: 100%;
+	max-width: 900px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	padding-top: 45px;
+	
+	
+	background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+	
+
+	
+}
+.bodyCont h1{
+	font-size: 65px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+#paragraph{
+	font-size: 21px;
+}
+
+.left{
+	background-color: black;
+	text-align: center;
+	width:100%;
+	
+}
+
+.left b{
+	text-decoration: underline;
+	color:#D948DD;
+	
+}
+.left a{
+	text-decoration:none;
+	font-size: 18px;
+	color: white;
+	
+}
+
+.left a:active{
+	color: darkred;
+}
+
+.left a:hover{
+	color: orange;
+}
+
+.power{
+	font-size: 19px;
+	background-color: #a9a9a9;
+	text-align: center;
+}
+
+hr{
+	padding-left:0px;
+	border: 2px solid black;
+	width:100%;
+}
+
+
+
+/* Style social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 4px;
+}
+
+
+.fa:hover {
+  opacity: 0.6;
+  
+}
+
+
+.Social-right{
+	text-align: center;
+	
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #4FCE5D;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+  background-color: #57E2F5;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 75%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.6s;
+  
+  
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 22px;
+  text-align: center;
+  
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+.plus{
+	width: 39%;
+	text-align:center;
+	color: white;
+}
+
+.cont{
+	
+	text-align: justify;
+    text-align-last: center;
+}
+
+.panel .p1{
+	width: 43%; 
+	
+}
+
+.panel .p2{
+	width: 86%;
+	
+	
+} 
+
+.s1{
+	width: 52.85%;
+	
+}
+
+.s2{
+	width: 46.35%;
+	
+    
+}
+
+.s3{
+	width: 49.8%;
+    
+}
+
+.more{
+	text-align: center;
+	color: white;
+	
+}
+
+#info{
+	text-decoration: underline;
+}

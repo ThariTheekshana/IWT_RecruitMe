@@ -1,0 +1,147 @@
+<!-- IT21282836 - Mallawaarachchi T. D. R. -->
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title> Find Talent </title>
+		
+		<!-- link css file -->
+		<link rel="stylesheet" href="../css/HF.css">
+		<link rel="stylesheet" href="../css/myStyles.css">
+		
+		<!-- icon library --> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- link js file -->
+		<script src="../js/myScript.js"> </script>
+		
+		<!-- HEADER start -->
+		<div class = "header">
+
+			<!-- logo image -->
+				<img src = "../images/logo.png" alt = "Logo image not found " class = "logo">	
+					
+			<!-- Navigation bar -->		
+				<nav>
+					<ul class = "nav-link">
+						
+						<li> <a href = "Home - afterLog.html" > Home </a> </li>
+						<li> <a href = "findJob.html" > Find Job </a> </li>
+						<li> <a href = "#" > Find Talent </a> </li>
+						<li> <a href = "payment.html" > Payment </a> </li>
+						<li> <a href = "contactUs.html" > Contact Us </a> </li>
+						<li> <a href = "aboutUs.html" > About Us </a> </li>							
+						<li> <a href = "Help & Support.html" > Help & Support </a> </li>
+					</ul>
+				</nav>
+		<!-- HEADER end -->
+		<hr> <!--added by me-->	
+	</head>
+	
+	
+	<body id="findtalent">
+		<center>
+			<h1 id="textHead"> Talents </h1> 
+			<h2 class="textHead2"> Choose A Field & Find Your Talent </h2>
+		</center>
+	
+		<div class="Opp">
+			<div class="talentDetails">
+				<div class="dImg">
+					<img id="imgE" src="../images/imgIT.jpg" alt="Description Image Not Found">
+				</div>
+				
+				<h2 class="jtTitle"> IT & Software Development </h2>
+				<p class="talentDscrpt"> We offer you qualified talents in the field </p>
+				<a class="apply" href="../php/rcruiterfm.php">Explore</a>   <!--link request form-->
+			</div>
+			
+			
+			<div class="talentDetails">
+				<div class="dImg">
+					<img id="imgE" src="../images/imgEng.jpg" alt="Description Image Not Found">
+				</div>
+				
+				<h2 class="jtTitle"> Engineering </h2>
+				<p class="talentDscrpt"> From aerospace engineering to telecommunications, a range of career areas are open to you with a degree in electrical and electronic engineering </p>
+				<a class="apply" href="../php/rcruiterfm.php">Explore</a>   <!--link request form-->
+			</div>
+			
+			<div class="talentDetails">
+				<div class="dImg">
+					<img id="imgE" src="../images/imgDesign.jpg" alt="Description Image Not Found">
+				</div>
+				
+				<h2 class="jtTitle"> Designing </h2>
+				<p class="talentDscrpt"> Creative and talented designers with qualifications you find </p>
+				<a class="apply" href="../php/rcruiterfm.php">Explore</a>   <!--link request form-->
+			</div>
+		</div>
+		
+		<br><br><br> 
+		
+		<div class="tIssues">
+			<div class="tIssuesLeft">
+				Anything To Clarify ? <br>
+				We Will Let You Know Through E-mail
+			</div>
+			
+			<div class="tIssuesRight">
+				<form action="../php/findTalent.php" method="POST">
+					Full Name:
+					<input type="text" name="rFName" placeholder="Full Name" required>
+					<br> <br>
+						
+					Email:
+					<input type="email" name="rEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="abc@gmail.com" required>
+					<br> <br>
+						
+					Message/ Issue: 
+					<textarea name="rMsg" rows="7" cols="37" required> </textarea>
+					<br> <br>
+						
+					<!-- Specified an enableButton() function-->
+					<input type="checkbox" id="checkBox" onclick="enableButton()">
+					Accept Privacy Policy and Terms
+					<br> <br>
+						
+					<center>
+						<input type="submit" name="ftSubmit" value="Submit" id="submitBtn" disabled>
+					</center>
+				</form>
+			</div>				
+		</div>
+		
+		<br><br><br> <!-- added-->
+
+
+		
+		<!-- FOOTER start -->	
+		<footer class = "left">
+			    <br>
+				<b>SITE LINKS</b>				                   <br><br>
+				<a href="Home - afterLog.html"> Home </a>                            <br><br>
+				<a href="findJob.html"> Find Job </a>            <br><br>
+				<a href="#"> Find Talent </a>      <br><br>
+				<a href="payment.html"> Payment </a>                         <br><br>
+				<a href="contactUs.html"> Contact Us </a>        <br><br>
+				<a href="aboutUs.html"> About Us </a>                        <br><br>
+				<a href="Help & Support.html"> Help & Support </a>                  <br><br>
+				  
+			<div class = "Social-right">
+				<!-- Add social media icons -->
+				<a href="" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-whatsapp"></a>
+			</div>		  		
+		</footer>
+		
+		<p class = "power">Powered by <a href="#" target="_blank">Recruit Me</a> </p>
+		<!-- FOOTER end -->	
+	</body>
+</html>

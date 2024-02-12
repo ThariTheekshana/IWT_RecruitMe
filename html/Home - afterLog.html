@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Recruite Me - Home</title>
+		<link rel = "stylesheet" href = "../css/afterLog.css">
+		<link rel = "stylesheet" href = "../css/Home - afterLog.css">
+		<script src = "../js/Home afterLog.js"></script>
+	</head>
+
+	<body>	
+ 	
+		<div class = "header">
+			
+			<nav>
+	<!--Add logo image -->
+				<img src = "../images/logo.png" alt = "Logo image not found " class = "logo">
+				<div class = "uname"><?php echo $_SESSION['user_name'];?></div>
+	<!-- Navigation bar -->			
+				<ul class = "nav-link">
+					<button class = "btn" type="button" onclick = "window.location.href = '../php/profilechk1.php';">User Profile</button>
+					<li> <a href = "#" > Home </a> </li>
+					<li> <a href = "findJob.html" > Find Job </a> </li>
+					<li> <a href = "findTalent.html" > Find Talent </a> </li>
+					<li> <a href = "payment.html" > Payment </a> </li>
+					<li> <a href = "contactUs.html" > Contact Us </a> </li>
+					<li> <a href = "aboutUs.html" > About Us </a> </li>
+					<li> <a href = "Help & Support.html"> Help & Support </a> </li>
+					
+				</ul>
+			</nav>
+			
+	<!-- Add content -->	
+		<!-- Slideshow container -->
+	<div class="slideshow-container">
+
+	  <!-- Full-width images with number and caption text -->
+	  <div class="mySlides fade">
+		<div class="numbertext">1 of 3</div>
+		<img src="../images/slide1.png" style="width:100%">
+		<div class="text">Welcome</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">2 of 3</div>
+		<img src="../images/slide2.jpg" style="width:100%">
+		<div class="text">Find Talent</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">3 of 3</div>
+		<img src="../images/slide3.jpg" style="width:100%">
+		<div class="text">Find The Right Person</div>
+	  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+			
+			
+		</div>
+		
+		
+		
+	<!-- Footer -->	
+		<footer class = "left">
+		<hr><br>
+			
+			  <b>SITE LINKS</b>				   <br><br>
+			  <a href="#"> Home </a>            <br><br>
+			  <a href="findJob.html"> Find Job </a>        <br><br>
+			  <a href="findTalent.html"> Find Talent </a>     <br><br>
+			  <a href="payment.html"> Payment </a>         <br><br>
+			  <a href="contactUs.html"> Contact Us </a>      <br><br>
+			  <a href="aboutUs.html"> About Us </a>        <br><br>
+			  <a href="Help & Support.html"> Help & Support </a>  <br><br>
+			  
+		<div class = "Social-right">
+			
+			<!-- Add social media icon library -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<!-- Add social media icons -->
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-whatsapp"></a>
+			
+		</div>
+			
+			  		
+		</footer>
+		<p class = "power">Powered by <a href="#">Recruit Me</a> </p>
+			  
+	</body>
+</html> 
